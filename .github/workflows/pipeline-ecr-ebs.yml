@@ -47,7 +47,7 @@ deploy:
     needs: build
     steps:
         - uses: actions/download-artifact@v4
-         with:
+            with:
                 name: ebconfig
                 path: .
         - run: |

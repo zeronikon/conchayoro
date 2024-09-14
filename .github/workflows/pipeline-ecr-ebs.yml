@@ -28,7 +28,7 @@ jobs:
                 node-version: '18'
                 cache: 'npm'
         - uses: actions/upload-artifact@v4
-            with:
+          with:
                 name: ebconfig
                 path: |
                     frontend/.elasticbeanstalk/config.yml
